@@ -118,8 +118,8 @@ if ($form->validate()) {
 // setup a template object
 $options = &PEAR::getStaticProperty('HTML_Template_Flexy','options');
 $options = array(
-	'templateDir' => '/home/mixtli/public_html/QuickFormsFlexy/templates',
-	'compileDir' => '/home/mixtli/public_html/QuickFormsFlexy/templates/build',
+	'templateDir' => './templates',
+	'compileDir' => '/tmp',
 	'forceCompile' => 1,
 	'debug' => 0,
 	'local' => 'en'

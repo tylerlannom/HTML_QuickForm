@@ -113,6 +113,7 @@ major one. Please update your code!
             <file role="php">ITStatic.php</file>
             <file role="php">Object.php</file>
             <file role="php">ObjectFlexy.php</file>
+            <file role="php">QuickHtml.php</file>
           </dir>
         </dir>
         <dir name="docs">
@@ -129,6 +130,7 @@ major one. Please update your code!
             <file role="doc">ITDynamic_example.php</file>
             <file role="doc">ITDynamic_example2.php</file>
             <file role="doc">ITStatic_example.php</file>
+            <file role="doc">QuickHtml_example.php</file>
             <file role="doc">SmartyDynamic_example.php</file>
             <file role="doc">SmartyStatic_example.php</file>
             <file role="doc">labels-default.php</file>

@@ -84,8 +84,8 @@ $form->accept($renderer);
 
 $options = &PEAR::getStaticProperty('HTML_Template_Flexy','options');
 $options = array(
-	'templateDir' => '/home/mixtli/public_html/QuickFormsFlexy/templates',
-	'compileDir' => '/home/mixtli/public_html/QuickFormsFlexy/templates/build',
+	'templateDir' => './templates',
+	'compileDir' => '/tmp',
 	'debug' => 0
 );
 $tpl =& new HTML_Template_Flexy($options);

@@ -63,7 +63,7 @@ Features:
     <state>stable</state>
     <notes>
 * New additions
-- Added HTML_Template_Flexy renderer with examples (Ron McClain)
+- Added Flexy renderer with examples (Ron McClain)
 - Added QuickHtml renderer with example (Jason Rust)
 - Added possibility to add customized empty options on top of date element selects (Jason Rust)
 - Added Czech translation for date element (Tomas Zavodny)
@@ -140,8 +140,8 @@ major one. Please update your code!
               <file role="doc">smarty-dynamic-green.tpl</file>
               <file role="doc">smarty-dynamic.tpl</file>
               <file role="doc">smarty-static.tpl</file>
-              <file role="doc">flexy_dynamic.html</file>
-              <file role="doc">flexy_static.html</file>
+              <file role="doc">flexy-dynamic.html</file>
+              <file role="doc">flexy-static.html</file>
               <file role="doc">html.html</file>
               <file role="doc">label.html</file>
                 <dir name="styles">

@@ -185,7 +185,7 @@ class HTML_QuickForm_Renderer_Object extends HTML_QuickForm_Renderer {
             $ret->styleTemplate = "styles/". $ret->style .".html";
         }
         if($ret->type == 'group') {
-            $ret->seperator = $element->_seperator;
+            $ret->separator = $element->_separator;
             $ret->elements = array();
         } else {
             $ret->html = $element->toHtml();
@@ -377,10 +377,10 @@ class QuickformElement {
     var $html;
 
     /**
-     * If element is a group, the group seperator
-     * @var string $seperator
+     * If element is a group, the group separator
+     * @var string $separator
      */
-    var $seperator;
+    var $separator;
 
     /**
      * If element is a group, an array of subelements

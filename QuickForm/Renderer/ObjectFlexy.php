@@ -377,10 +377,10 @@ class QuickformFlexyElement {
     var $html;
 
     /**
-     * If element is a group, the group seperator
-     * @var string $seperator
+     * If element is a group, the group separator
+     * @var string $separator
      */
-    var $seperator;
+    var $separator;
 
     /**
      * If element is a group, an array of subelements

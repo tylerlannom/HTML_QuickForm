@@ -25,7 +25,7 @@
 /**
  * Base class for <input /> form elements
  */
-require_once 'HTML/QuickForm/input.php';
+//require_once 'HTML/QuickForm/input.php';
 
 /**
  * HTML class for a hidden type element
@@ -52,9 +52,9 @@ class HTML_QuickForm_hidden extends HTML_QuickForm_input
      * @access    public
      * @return    void
      */
-    function HTML_QuickForm_hidden($elementName=null, $value='', $attributes=null)
+    function __construct($elementName=null, $value='', $attributes=null)
     {
-        HTML_QuickForm_input::HTML_QuickForm_input($elementName, null, $attributes);
+        parent::__construct($elementName, null, $attributes);
         $this->setType('hidden');
         $this->setValue($value);
     } //end constructor

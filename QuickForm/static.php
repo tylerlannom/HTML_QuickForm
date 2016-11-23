@@ -24,7 +24,7 @@
 /**
  * Base class for form elements
  */ 
-require_once 'HTML/QuickForm/element.php';
+//require_once 'HTML/QuickForm/element.php';
 
 /**
  * HTML class for static data
@@ -57,9 +57,9 @@ class HTML_QuickForm_static extends HTML_QuickForm_element {
      * @access    public
      * @return    void
      */
-    function HTML_QuickForm_static($elementName=null, $elementLabel=null, $text=null)
+    function __construct($elementName=null, $elementLabel=null, $text=null)
     {
-        HTML_QuickForm_element::HTML_QuickForm_element($elementName, $elementLabel);
+        parent::__construct($elementName, $elementLabel);
         $this->_persistantFreeze = false;
         $this->_type = 'static';
         $this->_text = $text;

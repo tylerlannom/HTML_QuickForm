@@ -25,7 +25,7 @@
 /**
  * Base class for form elements
  */ 
-require_once 'HTML/QuickForm/element.php';
+//require_once 'HTML/QuickForm/element.php';
 
 /**
  * Base class for <input /> form elements
@@ -54,7 +54,7 @@ class HTML_QuickForm_input extends HTML_QuickForm_element
      */
     function __construct($elementName=null, $elementLabel=null, $attributes=null)
     {
-        $this->HTML_QuickForm_element($elementName, $elementLabel, $attributes);
+        parent::__construct($elementName, $elementLabel, $attributes);
     } //end constructor
 
     // }}}

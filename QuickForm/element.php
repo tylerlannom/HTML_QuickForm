@@ -26,7 +26,7 @@
 /**
  * Base class for all HTML classes
  */
-require_once 'HTML/Common.php';
+//require_once 'HTML/Common.php';
 
 /**
  * Base class for form elements
@@ -91,7 +91,7 @@ class HTML_QuickForm_element extends HTML_Common
      */
     function __construct($elementName=null, $elementLabel=null, $attributes=null)
     {
-        HTML_Common::HTML_Common($attributes);
+        parent::__contruct($attributes);
         if (isset($elementName)) {
             $this->setName($elementName);
         }
